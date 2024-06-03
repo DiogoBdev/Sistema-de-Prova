@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+body {
+    background-color: #1d1d1d;
+    background-image: url('path/to/your/image.jpg');
+    /* Exemplo de fundo com imagem */
+    background-size: cover;
+    /* Ajusta a imagem para cobrir o fundo */
+    background-position: center;
+    /* Centraliza a imagem */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.form-inline .form-control {
+    width: auto;
+}
+
+.header-style {
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.div-rounded {
+    border-radius: 20px;
+    overflow: hidden;
+    /* Garante que o arredondamento seja aplicado corretamente */
+}
+
+.table-rounded {
+    border-radius: 10px;
+    overflow: hidden;
+    /* Garante que o arredondamento seja aplicado corretamente */
+}
+
+/* Estilos personalizados */
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Altura total da viewport */
+}
+
+.btn-voltar {
+    float: right;
+}
+
+.container {
+    margin-top: 50px;
+    width: 90%; /* Define a largura do container para 90% */
+    max-width: 900px; /* Define a largura máxima do container */
+}
+.card {
+    border-radius: 20px; /* Adiciona bordas arredondadas ao card */
+}
+.form-group {
+    border-radius: 20px; /* Adiciona bordas arredondadas aos form-groups */
+}
+ 
