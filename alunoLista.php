@@ -1,5 +1,6 @@
 <?php
  
+ 
 require_once ('../conectar.php');
 
 $search = isset($_GET['search']) ? $_GET['search'] : '';
@@ -105,8 +106,8 @@ $result = $con->query($sql);
                 <?php else: ?>
                     <div class='alert alert-warning' role='alert'>Nenhum registro encontrado.</div>
                 <?php endif; ?>
-                
-                <a href="../professor/professorAdmin.php" class="btn btn-secondary btn-voltar"><i class="bi bi-arrow-left"></i>
+              
+                <a href="../administrador/painelAdmin.php" class="btn btn-secondary btn-voltar"><i class="bi bi-arrow-left"></i>
                     Voltar</a>
             </div>
         </div>
